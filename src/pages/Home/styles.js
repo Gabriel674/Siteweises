@@ -159,6 +159,19 @@ export const Box1Image = styled.img`
   height: 300px;
   width: 350px;
 `;
+
+export const Contactlink = styled.a`
+  color: #fafafa;
+  text-decoration: none;
+
+  &:hover{
+
+  color: #fafafa;
+  text-decoration: none;
+
+  }
+`;
+
 export const Box2 = styled.div`
   background: ${props => props.bgColor};
 `;
@@ -328,8 +341,8 @@ export const BtnMoreInfoService = styled.a`
   height: 40px;
 `;
 export const Logo = styled.img`
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 70px;
   @media (max-width: 695px) {
     display: none;
   }

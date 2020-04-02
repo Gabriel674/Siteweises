@@ -42,6 +42,7 @@ import {
   ServiceName,
   ServiceName2,
   Services,
+  Contactlink,
   Services2
 } from "./styles";
 
@@ -246,9 +247,9 @@ export default function Home() {
         <Element name="projetos" className="projetos">
           <Container>
             <Box3Container>
-              <Box3Title> Softwares </Box3Title>
+              <Box3Title> Nossos Produtos </Box3Title>
               <Box3Description>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Confira Softwares exclusivos desenvolvidos para ajudar você e o seu negócio!
               </Box3Description>
               <Services2>
                 <lottie-player
@@ -278,15 +279,16 @@ export default function Home() {
       <Element name="contato" className="contato">
         <Box4 bgColor={colors["white"]}>
           <Box4Container>
-            <Box4Title> Contato </Box4Title>
+            <Box4Title> Fale conosco </Box4Title>
             <Box4Description>
-              Lorem ipsum dolor sit amet consectetur.
+              Tire suas duvidas com a gente!
             </Box4Description>
             <MoreInfoBtn2
               hoverColor={colors["light-blue"]}
               bgColor={colors["purple-dark"]}
-            >
-              Contato
+            ><Contactlink href="mailto:gabrielberners@gmail.com">
+               Email
+            </Contactlink>
             </MoreInfoBtn2>
           </Box4Container>
         </Box4>
